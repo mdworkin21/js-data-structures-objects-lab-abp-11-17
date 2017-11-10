@@ -24,7 +24,7 @@ function deleteFromDriverByKey(driver, key){
 
   const newObj = Object.assign({}, driver)
 
-  delete newObj.key
+  delete newObj.address
 
   return driver
 }
